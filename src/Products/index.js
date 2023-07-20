@@ -30,7 +30,13 @@ const Products = () =>{
 
         
         <div className="product">
-            
+             <button  
+            onClick={() => {
+                navigate("/newproduct");
+              }}
+            >
+                ADD PRODUCT
+            </button>
           
            {products.map(item =>(
                <div className="content" key={item.id}>
@@ -43,13 +49,7 @@ const Products = () =>{
                     navigate(`/products/${item.id}`);
                   }}
                    >DETAILS</button>
-                    <button className="btn" 
-            onClick={() => {
-                navigate("/newproduct");
-              }}
-            >
-                ADD PRODUCT
-            </button>
+                   
 
                </div>
            ))
@@ -58,4 +58,3 @@ const Products = () =>{
         </div>);
 }
 export default Products
-//react-router-dom v6

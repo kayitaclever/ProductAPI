@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from "react";
 import { useNavigate, } from "react-router-dom";
+import './style.css'
 
 const Products = () =>{
     const [products, setProducts] = useState([]);
@@ -24,13 +25,13 @@ const Products = () =>{
     };
     console.log({products});
     let navigate = useNavigate();
-    // let { title } = useParams();
+    
     return(
         
 
         
-        <div className="product">
-             <button  
+        <div className="Product">
+             <button  className="product"
             onClick={() => {
                 navigate("/newproduct");
               }}
@@ -44,7 +45,7 @@ const Products = () =>{
                    <h3>{item.title}</h3>
                    <h4>Ksh {item.price}</h4>
                    <h4>Ksh {item.discountPercentage}</h4>
-                   <button
+                   <button className="detail"
                    onClick={() => {
                     navigate(`/products/${item.id}`);
                   }}

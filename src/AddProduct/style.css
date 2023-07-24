@@ -1,0 +1,38 @@
+.add {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px #2ba174;
+  }
+  
+  .add h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color:#2ba174;
+  }
+  
+  .add input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add button {
+    padding: 10px 20px;
+    background-color: #2ba174;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add button:hover {
+    background-color: #2ba174;
+  }

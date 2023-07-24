@@ -1,0 +1,35 @@
+.image{
+    border-radius: 10px;
+    border: 3px solid #2ba174;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    /* max-width: 100%; */
+    /* height: auto; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+}
+image:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+  }
+
+
+  .content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+  }
+  .product{
+    background-color:#2ba174 ;
+    border-radius: 10px;
+    border-color:white ;
+    color: white;
+  }
+  .detail{
+    background-color: #2ba174;
+    color: white;
+    border-color: white;
+  }

@@ -1,0 +1,16 @@
+.hey{
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 100%;
+    max-width: 800px;
+    /* margin: 0 auto; */
+    background-color: #2ba174;
+    padding: 20px;
+    text-align: center;
+}
+
+.back{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}

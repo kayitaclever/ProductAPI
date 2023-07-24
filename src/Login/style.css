@@ -1,0 +1,25 @@
+.form{
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 100%;
+    max-width: 800px;
+    /* margin: 0 auto; */
+    background-color: #2ba174;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.form input{
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}

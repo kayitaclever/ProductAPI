@@ -2,6 +2,8 @@
 
 import { useParams, Link } from 'react-router-dom';
 import React,{ useState, useEffect, useCallback } from 'react';
+import './style.css'
+
 
 
 const ProductDetail = () => {
@@ -24,7 +26,7 @@ const ProductDetail = () => {
   }, [getProducts]);
 
   return (
-    <>
+    <div className='hey'>
    
       <h1> {product.title} </h1>
       <div>
@@ -34,9 +36,9 @@ const ProductDetail = () => {
       </div>
 
       <Link to="/">
-        <button>Back</button>
+        <button className='back' >Back</button>
       </Link>
-    </>
+    </div>
   );
 };
 
